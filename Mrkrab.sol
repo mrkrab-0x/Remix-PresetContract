@@ -5,7 +5,7 @@ contract MrKrab {
     string public name = "MrKrabToken";
     string public symbol = "MKT";
     uint8 public decimals = 18;
-    uint256 public totalSupply = 1000000 * (10 ** uint256(decimals));
+    uint256 public totalSupply = 1000000000 * (10 ** uint256(decimals));
     address public owner;
    
     mapping(address => uint256) balances;
