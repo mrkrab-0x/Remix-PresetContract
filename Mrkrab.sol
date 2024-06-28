@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract MrKrab {
     string public name = "MrKrabToken";
-    string public symbol = "MKT";
+    string public symbol = "KRAB";
     uint8 public decimals = 18;
     uint256 public totalSupply = 1000000000 * (10 ** uint256(decimals));
     address public owner;
